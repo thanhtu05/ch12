@@ -6,7 +6,7 @@
               username="avnadmin"
               password="YOUR_PASSWORD_HERE"
               driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://mysql-eb5935c-student-c512.g.aivencloud.com:19489/murach_email?useSSL=false&amp;allowPublicKeyRetrieval=true"
+              url="jdbc:mysql://mysql-eb5935c-student-c512.g.aivencloud.com:19489/defaultdb?useSSL=true&amp;trustServerCertificate=true"
               maxTotal="20"
               maxIdle="10"
               maxWaitMillis="-1"/>
