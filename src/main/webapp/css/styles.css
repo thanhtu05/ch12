@@ -1,0 +1,57 @@
+/* Định dạng chung cho toàn trang */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+    width: 600px;
+    margin: 20px auto; /* Căn giữa màn hình */
+    border: 1px solid black; /* Khung viền bao quanh */
+    padding: 20px;
+}
+
+/* Định dạng tiêu đề */
+h1 {
+    color: black;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Định dạng đoạn văn */
+p {
+    margin-bottom: 15px;
+}
+
+/* Định dạng Label để các input thẳng hàng */
+label {
+    display: inline-block;
+    width: 120px;       /* Độ rộng cố định cho label */
+    text-align: right;  /* Căn lề phải cho chữ trong label */
+    margin-right: 10px; /* Khoảng cách giữa label và ô input */
+    font-weight: bold;
+}
+
+/* Định dạng ô nhập liệu */
+input[type="text"],
+input[type="email"] {
+    width: 300px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Class 'pad_top' như trong HTML của bạn */
+.pad_top {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+/* Class 'margin_left' để đẩy nút 'Join Now' thẳng hàng với input */
+.margin_left {
+    margin-left: 135px; /* 120px (width label) + 10px (margin label) + 5px dư */
+    padding: 5px 15px;
+}
+
+/* Định dạng span trong trang thanks.jsp */
+span {
+    display: inline-block;
+    padding: 5px 0;
+}
